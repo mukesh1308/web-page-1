@@ -1,0 +1,15 @@
+*{
+    margin:0px;
+    padding: 0px;
+    list-style: none;
+    box-sizing: border-box;
+}
+html{
+    width: 100vw;
+    height: fit-content;
+    font-size: 10px;
+    overflow-x: hidden;
+}
+body{
+    width: 100%;
+}

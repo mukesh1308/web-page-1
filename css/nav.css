@@ -1,0 +1,58 @@
+nav{
+    width: 100%;
+    height: 7rem;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top:0px;
+    left: 0px;
+    z-index: 1000;
+}
+i{
+    color: skyblue;
+    font-size: 1.8rem;
+}
+nav div{
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    display: flex;
+    color: white;
+    font-size: 1.5rem;
+    margin-left: 2rem;
+}
+nav div img{
+    width: auto;
+    height: 75%;
+    margin-right: 1rem;
+}
+nav ul{
+    margin-right: 2rem;
+}
+nav ul li{
+    display: inline-block;
+    color: white;
+    margin: 0.7rem;
+    font-size: 1.3rem;
+}
+nav ul button{
+    background-color: skyblue;
+    color: wheat;
+    border: none;
+    border-radius: 2rem;
+    padding: 0.5rem 1rem;
+    margin-right: 1.5rem;
+}
+nav ul .drop::after{
+    content: "";
+    width: 0px;
+    height: 0px;
+    border-top:0.5rem solid white;
+    border-left:0.5rem solid transparent;
+    border-right:0.5rem solid transparent;
+    display: inline-block;
+    margin-left: 0.5rem;
+}
